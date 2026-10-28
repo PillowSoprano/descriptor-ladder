@@ -1,0 +1,11 @@
+{
+  "settings": 1759,
+  "grids": 120,
+  "elapsed_seconds": 6.799274206161499,
+  "max_historical_difference_pp": 3.515789458452545e-05,
+  "max_polynomial_error": 8.881784197001252e-16,
+  "max_mae_piecewise_error": 3.597122599785507e-14,
+  "fraction_cross_changes_sign": 0.10631040363843093,
+  "fraction_multiple_mae_windows_0_3": 0.0011370096645821489,
+  "role": "Complete-grid explanatory decomposition."
+}

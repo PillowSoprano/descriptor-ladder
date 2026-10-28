@@ -1,0 +1,8 @@
+{
+  "settings": 567,
+  "elapsed_seconds": 6.95012903213501,
+  "max_historical_difference_pp": 0.07254735169952653,
+  "max_polynomial_error": 2.1316282072803006e-14,
+  "max_mae_piecewise_error": 1.84297022087776e-14,
+  "role": "Complete-grid explanatory decomposition with historical training-selected penalties held fixed during interaction rescaling."
+}

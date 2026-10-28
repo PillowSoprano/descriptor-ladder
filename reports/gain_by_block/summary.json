@@ -1,0 +1,213 @@
+{
+  "phase": "block attribution",
+  "materials_cases_per_method": 567,
+  "protein_cases_per_method": 1759,
+  "metrics": [
+    {
+      "domain": "materials",
+      "property": "heat_of_formation",
+      "method": "conditional_iid",
+      "n_cases": 189,
+      "curve_MAE_pp": 2.4573630591991704,
+      "case_MAE_pp": 3.10020488387965,
+      "median_case_absolute_error_pp": 1.9066930647937963,
+      "case_spearman": 0.526962797063581,
+      "case_sign_accuracy": 0.5978835978835979,
+      "source_reproduction_max_pp": 0.022766307620115
+    },
+    {
+      "domain": "materials",
+      "property": "magnetic_moment",
+      "method": "conditional_iid",
+      "n_cases": 189,
+      "curve_MAE_pp": 0.4512465924211926,
+      "case_MAE_pp": 1.813948686965387,
+      "median_case_absolute_error_pp": 1.0145940563402678,
+      "case_spearman": 0.43876535309905973,
+      "case_sign_accuracy": 0.783068783068783,
+      "source_reproduction_max_pp": 0.0021293912167204
+    },
+    {
+      "domain": "materials",
+      "property": "volume_per_fu",
+      "method": "conditional_iid",
+      "n_cases": 189,
+      "curve_MAE_pp": 3.051256902232718,
+      "case_MAE_pp": 5.316264072746037,
+      "median_case_absolute_error_pp": 3.3806790361612937,
+      "case_spearman": 0.6901544641746209,
+      "case_sign_accuracy": 0.6402116402116402,
+      "source_reproduction_max_pp": 0.07254728896229778
+    },
+    {
+      "domain": "materials",
+      "property": "heat_of_formation",
+      "method": "conditional_interaction",
+      "n_cases": 189,
+      "curve_MAE_pp": 2.4262527090212287,
+      "case_MAE_pp": 3.2254613655330973,
+      "median_case_absolute_error_pp": 2.0934397831623097,
+      "case_spearman": 0.4782328160827601,
+      "case_sign_accuracy": 0.5873015873015873,
+      "source_reproduction_max_pp": 0.022766307620115
+    },
+    {
+      "domain": "materials",
+      "property": "magnetic_moment",
+      "method": "conditional_interaction",
+      "n_cases": 189,
+      "curve_MAE_pp": 0.33332401780838095,
+      "case_MAE_pp": 1.6847346467228745,
+      "median_case_absolute_error_pp": 1.0106789736485489,
+      "case_spearman": 0.4726443768996961,
+      "case_sign_accuracy": 0.7936507936507936,
+      "source_reproduction_max_pp": 0.0021293912167204
+    },
+    {
+      "domain": "materials",
+      "property": "volume_per_fu",
+      "method": "conditional_interaction",
+      "n_cases": 189,
+      "curve_MAE_pp": 2.912394023713442,
+      "case_MAE_pp": 5.503575382917523,
+      "median_case_absolute_error_pp": 3.3770570295937787,
+      "case_spearman": 0.650125313283208,
+      "case_sign_accuracy": 0.6296296296296297,
+      "source_reproduction_max_pp": 0.07254728896229778
+    },
+    {
+      "domain": "materials",
+      "property": "heat_of_formation",
+      "method": "conditional_reml",
+      "n_cases": 189,
+      "curve_MAE_pp": 1.7884937208647935,
+      "case_MAE_pp": 1.861798766320442,
+      "median_case_absolute_error_pp": 1.4140661193039583,
+      "case_spearman": 0.7935245916208962,
+      "case_sign_accuracy": 0.708994708994709,
+      "source_reproduction_max_pp": 0.022766307620115
+    },
+    {
+      "domain": "materials",
+      "property": "magnetic_moment",
+      "method": "conditional_reml",
+      "n_cases": 189,
+      "curve_MAE_pp": 0.3438990363210703,
+      "case_MAE_pp": 1.5483803709682262,
+      "median_case_absolute_error_pp": 1.1083602741885243,
+      "case_spearman": 0.5393981407419257,
+      "case_sign_accuracy": 0.7777777777777778,
+      "source_reproduction_max_pp": 0.0021293912167204
+    },
+    {
+      "domain": "materials",
+      "property": "volume_per_fu",
+      "method": "conditional_reml",
+      "n_cases": 189,
+      "curve_MAE_pp": 1.2634159452331974,
+      "case_MAE_pp": 2.731652630954448,
+      "median_case_absolute_error_pp": 1.6355611352421366,
+      "case_spearman": 0.8582271281039479,
+      "case_sign_accuracy": 0.7936507936507936,
+      "source_reproduction_max_pp": 0.07254728896229778
+    },
+    {
+      "domain": "materials",
+      "property": "heat_of_formation",
+      "method": "previous_integrated",
+      "n_cases": 189,
+      "curve_MAE_pp": 2.3881862576593686,
+      "case_MAE_pp": 3.6766444042306476
+    },
+    {
+      "domain": "materials",
+      "property": "magnetic_moment",
+      "method": "previous_integrated",
+      "n_cases": 189,
+      "curve_MAE_pp": 0.40230053636664853,
+      "case_MAE_pp": 1.879793836238849
+    },
+    {
+      "domain": "materials",
+      "property": "volume_per_fu",
+      "method": "previous_integrated",
+      "n_cases": 189,
+      "curve_MAE_pp": 3.4778759103595314,
+      "case_MAE_pp": 8.126262135931016
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "conditional_iid",
+      "n_cases": 1759,
+      "curve_MAE_pp": 4.748466528720652,
+      "case_MAE_pp": 18.229739910402817,
+      "median_case_absolute_error_pp": 5.126522141369726,
+      "case_spearman": 0.5057106932178238,
+      "case_sign_accuracy": 0.7299602046617396,
+      "source_reproduction_max_pp": 3.515789454011653e-05
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "conditional_interaction",
+      "n_cases": 1759,
+      "curve_MAE_pp": 4.520778631034437,
+      "case_MAE_pp": 17.897894373528942,
+      "median_case_absolute_error_pp": 5.009925611901831,
+      "case_spearman": 0.5175519759467598,
+      "case_sign_accuracy": 0.7350767481523593,
+      "source_reproduction_max_pp": 3.515789454011653e-05
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "conditional_reml",
+      "n_cases": 1759,
+      "curve_MAE_pp": 3.3262303891413634,
+      "case_MAE_pp": 8.84992724898017,
+      "median_case_absolute_error_pp": 4.599138704742057,
+      "case_spearman": 0.7396040257127169,
+      "case_sign_accuracy": 0.7896532120523024,
+      "source_reproduction_max_pp": 3.515789454011653e-05
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "smooth_interaction",
+      "n_cases": 1759,
+      "curve_MAE_pp": 3.3432770463070414,
+      "case_MAE_pp": 8.844896232211019,
+      "median_case_absolute_error_pp": 4.574761307144437,
+      "case_spearman": 0.7418996351726513,
+      "case_sign_accuracy": 0.7919272313814667,
+      "source_reproduction_max_pp": 3.515789454011653e-05
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "noise_uncertainty",
+      "n_cases": 1759,
+      "curve_MAE_pp": 2.1610595106754595,
+      "case_MAE_pp": 7.970883900284101,
+      "median_case_absolute_error_pp": 4.406973968063117,
+      "case_spearman": 0.7812144827796659,
+      "case_sign_accuracy": 0.8061398521887436,
+      "source_reproduction_max_pp": 3.515789454011653e-05
+    },
+    {
+      "domain": "protein",
+      "property": "fitness",
+      "method": "previous_integrated",
+      "n_cases": 1759,
+      "curve_MAE_pp": 5.43911494723946,
+      "case_MAE_pp": 13.955280694952512
+    }
+  ],
+  "aggregation": "Median seeds within panel, then median panels, matching original figures. Curve error is the mean absolute deviation at the 9 materials or 8 protein coverage points.",
+  "training_information": "Only the outer training labels enter covariance fitting and the posterior expected errors. Original inner-training-selected penalties are reused. This predicts risk conditional on a computed training set, not before any response has been obtained.",
+  "method_selection": "Exploratory development using observed aggregate discrepancies; no gain-curve parameter is fitted.",
+  "smooth_materials_branch": "12-case alphabetical trial only; retained as a separate branch, not extrapolated to seven panels.",
+  "protein_noise_uncertainty": "Hold training REML main-effect covariance fixed. Integrate AB variance under restricted training likelihood and an exponential prior with mean Var(y_train), using 16 posterior-quantile nodes. All 1,759 cases.",
+  "counterfactual": "Full-grid interaction variance enters no plot or metric of the training-only expected errors."
+}

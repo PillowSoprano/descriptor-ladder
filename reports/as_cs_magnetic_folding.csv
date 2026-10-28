@@ -1,0 +1,73 @@
+property,level,site,edge_class,model,n_edges,n_signed,mae,sign_accuracy
+magnetic_moment,As,A,near-zero endpoint,direct,478,477,2.1482324744242987,0.5010482180293501
+magnetic_moment,As,A,near-zero endpoint,metric,478,477,1.3428993478434659,0.5765199161425576
+magnetic_moment,As,A,opposite spin axes,direct,16,16,2.2433327367069804,0.5
+magnetic_moment,As,A,opposite spin axes,metric,16,16,1.619330225261713,0.6875
+magnetic_moment,As,A,same spin axis,direct,143,143,2.4634464420480247,0.5454545454545454
+magnetic_moment,As,A,same spin axis,metric,143,143,1.6106128779379931,0.5874125874125874
+magnetic_moment,As,B,near-zero endpoint,direct,844,842,1.627840423694614,0.5118764845605701
+magnetic_moment,As,B,near-zero endpoint,metric,844,842,1.4758893147097873,0.501187648456057
+magnetic_moment,As,B,opposite spin axes,direct,115,115,1.8157648894575933,0.3652173913043478
+magnetic_moment,As,B,opposite spin axes,metric,115,115,1.2610502938229244,0.5565217391304348
+magnetic_moment,As,B,same spin axis,direct,315,315,2.0105209315122523,0.44761904761904764
+magnetic_moment,As,B,same spin axis,metric,315,315,1.5236022595976388,0.4888888888888889
+magnetic_moment,As,X,near-zero endpoint,direct,211,211,0.9668852944407827,0.6635071090047393
+magnetic_moment,As,X,near-zero endpoint,metric,211,211,0.6174093043774388,0.6398104265402843
+magnetic_moment,As,X,opposite spin axes,direct,11,11,0.7858811004863303,0.8181818181818182
+magnetic_moment,As,X,opposite spin axes,metric,11,11,0.687147517737583,0.5454545454545454
+magnetic_moment,As,X,same spin axis,direct,72,72,1.0096522172434024,0.5694444444444444
+magnetic_moment,As,X,same spin axis,metric,72,72,0.9185301289470365,0.6388888888888888
+magnetic_moment,Cs,A,near-zero endpoint,direct,455,391,1.276173992059648,0.5831202046035806
+magnetic_moment,Cs,A,near-zero endpoint,metric,455,391,1.2064261203712219,0.578005115089514
+magnetic_moment,Cs,A,opposite spin axes,direct,76,76,1.5935702151248237,0.47368421052631576
+magnetic_moment,Cs,A,opposite spin axes,metric,76,76,1.4504454367713222,0.5394736842105263
+magnetic_moment,Cs,A,same spin axis,direct,106,106,1.830380398902874,0.4528301886792453
+magnetic_moment,Cs,A,same spin axis,metric,106,106,1.7233364702638343,0.5094339622641509
+magnetic_moment,Cs,B,near-zero endpoint,direct,834,780,2.2167164149317453,0.6371794871794871
+magnetic_moment,Cs,B,near-zero endpoint,metric,834,780,1.0473829787277813,0.6705128205128205
+magnetic_moment,Cs,B,opposite spin axes,direct,137,137,2.273056415864276,0.656934306569343
+magnetic_moment,Cs,B,opposite spin axes,metric,137,137,1.229824450046589,0.6058394160583942
+magnetic_moment,Cs,B,same spin axis,direct,303,303,2.966743997515399,0.5775577557755776
+magnetic_moment,Cs,B,same spin axis,metric,303,303,1.6359621006656175,0.5148514851485149
+magnetic_moment,Cs,X,near-zero endpoint,direct,212,188,1.0997533718706933,0.526595744680851
+magnetic_moment,Cs,X,near-zero endpoint,metric,212,188,1.3445474988561112,0.3882978723404255
+magnetic_moment,Cs,X,opposite spin axes,direct,41,41,0.6096255439012507,0.5121951219512195
+magnetic_moment,Cs,X,opposite spin axes,metric,41,41,0.8691910980549773,0.4634146341463415
+magnetic_moment,Cs,X,same spin axis,direct,41,41,0.8162882193120585,0.5365853658536586
+magnetic_moment,Cs,X,same spin axis,metric,41,41,0.9232697353269275,0.5365853658536586
+magnetic_moment_signed,As,A,near-zero endpoint,direct,478,477,2.0542340313632153,0.46540880503144655
+magnetic_moment_signed,As,A,near-zero endpoint,metric,478,477,1.4660773644136706,0.5283018867924528
+magnetic_moment_signed,As,A,opposite spin axes,direct,16,16,2.57578939513159,0.5
+magnetic_moment_signed,As,A,opposite spin axes,metric,16,16,2.0451439229997783,0.6875
+magnetic_moment_signed,As,A,same spin axis,direct,143,143,2.675352738900345,0.5244755244755245
+magnetic_moment_signed,As,A,same spin axis,metric,143,143,2.0794560830497653,0.5524475524475524
+magnetic_moment_signed,As,B,near-zero endpoint,direct,844,842,1.588041758367625,0.502375296912114
+magnetic_moment_signed,As,B,near-zero endpoint,metric,844,842,1.342545462067262,0.5130641330166271
+magnetic_moment_signed,As,B,opposite spin axes,direct,115,115,3.2776465867365334,0.7217391304347827
+magnetic_moment_signed,As,B,opposite spin axes,metric,115,115,3.04632974869437,0.7304347826086957
+magnetic_moment_signed,As,B,same spin axis,direct,315,315,2.1624855755368353,0.43174603174603177
+magnetic_moment_signed,As,B,same spin axis,metric,315,315,1.6050155909645059,0.4507936507936508
+magnetic_moment_signed,As,X,near-zero endpoint,direct,211,211,1.2312036688003107,0.6587677725118484
+magnetic_moment_signed,As,X,near-zero endpoint,metric,211,211,0.7821505456809691,0.6540284360189573
+magnetic_moment_signed,As,X,opposite spin axes,direct,11,11,0.9421417558805949,0.8181818181818182
+magnetic_moment_signed,As,X,opposite spin axes,metric,11,11,0.8831083194517473,0.7272727272727273
+magnetic_moment_signed,As,X,same spin axis,direct,72,72,0.957812410164532,0.6666666666666666
+magnetic_moment_signed,As,X,same spin axis,metric,72,72,1.62476692838956,0.5833333333333334
+magnetic_moment_signed,Cs,A,near-zero endpoint,direct,455,391,1.3410268233466118,0.5063938618925832
+magnetic_moment_signed,Cs,A,near-zero endpoint,metric,455,391,1.1612607611411148,0.5524296675191815
+magnetic_moment_signed,Cs,A,opposite spin axes,direct,76,76,2.55025181694171,0.4342105263157895
+magnetic_moment_signed,Cs,A,opposite spin axes,metric,76,76,2.0280861436811812,0.618421052631579
+magnetic_moment_signed,Cs,A,same spin axis,direct,106,106,1.8687146449964132,0.42452830188679247
+magnetic_moment_signed,Cs,A,same spin axis,metric,106,106,1.5928447583316085,0.5
+magnetic_moment_signed,Cs,B,near-zero endpoint,direct,834,780,2.19417108180818,0.6397435897435897
+magnetic_moment_signed,Cs,B,near-zero endpoint,metric,834,780,1.0853890621062487,0.6615384615384615
+magnetic_moment_signed,Cs,B,opposite spin axes,direct,137,137,2.4684385514112734,0.6788321167883211
+magnetic_moment_signed,Cs,B,opposite spin axes,metric,137,137,1.8893644392990105,0.7664233576642335
+magnetic_moment_signed,Cs,B,same spin axis,direct,303,303,2.8031354059330518,0.6303630363036303
+magnetic_moment_signed,Cs,B,same spin axis,metric,303,303,1.6590739578505451,0.6336633663366337
+magnetic_moment_signed,Cs,X,near-zero endpoint,direct,212,188,1.2966800958006142,0.3882978723404255
+magnetic_moment_signed,Cs,X,near-zero endpoint,metric,212,188,1.4315555947910488,0.44148936170212766
+magnetic_moment_signed,Cs,X,opposite spin axes,direct,41,41,2.4178759448132516,0.4146341463414634
+magnetic_moment_signed,Cs,X,opposite spin axes,metric,41,41,1.8126492476234657,0.6585365853658537
+magnetic_moment_signed,Cs,X,same spin axis,direct,41,41,1.4661012603841068,0.43902439024390244
+magnetic_moment_signed,Cs,X,same spin axis,metric,41,41,1.4202036984638478,0.5365853658536586

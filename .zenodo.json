@@ -1,0 +1,14 @@
+{
+  "title": "Code and data for: Which compositions have been computed decides how chemical descriptors should enter a model",
+  "upload_type": "software",
+  "description": "Code and derived data that regenerate every table and supplementary figure of the manuscript and its Supporting Information.",
+  "creators": [
+    {
+      "name": "Yu, Xiyao",
+      "affiliation": "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore",
+      "orcid": "0009-0006-2673-5269"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["perovskites", "high-throughput calculations", "chemical descriptors", "materials informatics"]
+}

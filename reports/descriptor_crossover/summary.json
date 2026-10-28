@@ -1,0 +1,922 @@
+{
+  "methods": "Training-only covariance moment matching; no regression of the observed benefit curve. Residual version estimates sigma2 from identifiable training residuals when at least 10 residual degrees of freedom exist.",
+  "comparisons": {
+    "heat_of_formation": {
+      "cases": 189,
+      "panels": 7,
+      "curve": [
+        {
+          "pct": 5.0,
+          "coverage": 0.05,
+          "actual": 8.534349084803273,
+          "graph": 1.7858628278877298,
+          "span": -0.4586804761175012
+        },
+        {
+          "pct": 10.0,
+          "coverage": 0.1,
+          "actual": 6.527211484804429,
+          "graph": 3.670310270591326,
+          "span": 1.6122251416521791
+        },
+        {
+          "pct": 15.0,
+          "coverage": 0.15,
+          "actual": 5.912760763873381,
+          "graph": 2.744861654103403,
+          "span": 0.2480683438819686
+        },
+        {
+          "pct": 20.0,
+          "coverage": 0.2,
+          "actual": 3.2652240430390944,
+          "graph": 6.94562206711381,
+          "span": 0.713359379959666
+        },
+        {
+          "pct": 30.0,
+          "coverage": 0.3,
+          "actual": 2.0320979582230447,
+          "graph": -0.2185560353796356,
+          "span": -0.118149229624298
+        },
+        {
+          "pct": 40.0,
+          "coverage": 0.4,
+          "actual": 1.3415080982266403,
+          "graph": -0.392393513368261,
+          "span": -0.207715912274442
+        },
+        {
+          "pct": 50.0,
+          "coverage": 0.5,
+          "actual": 0.2519891221242964,
+          "graph": -0.3177493063305059,
+          "span": -0.2852106644926078
+        },
+        {
+          "pct": 70.0,
+          "coverage": 0.7,
+          "actual": 0.2398427518903956,
+          "graph": -0.1039630125000856,
+          "span": -0.2586557981015147
+        },
+        {
+          "pct": 90.0,
+          "coverage": 0.9,
+          "actual": 0.0775939957572857,
+          "graph": -0.0642979201608273,
+          "span": -0.1279606291198387
+        }
+      ],
+      "curve_mae_pp_graph": 2.3881862576593686,
+      "curve_mae_pp_span": 3.0072552385531366
+    },
+    "magnetic_moment": {
+      "cases": 189,
+      "panels": 7,
+      "curve": [
+        {
+          "pct": 5.0,
+          "coverage": 0.05,
+          "actual": -1.4547084589319192,
+          "graph": -0.9858299097267542,
+          "span": -1.23157704283392
+        },
+        {
+          "pct": 10.0,
+          "coverage": 0.1,
+          "actual": -0.063669995086002,
+          "graph": 0.3989782818922704,
+          "span": -0.8903083841798498
+        },
+        {
+          "pct": 15.0,
+          "coverage": 0.15,
+          "actual": -0.0797063390662211,
+          "graph": 0.5127949755558414,
+          "span": -0.9443137690236858
+        },
+        {
+          "pct": 20.0,
+          "coverage": 0.2,
+          "actual": 0.6172349240652575,
+          "graph": 0.4320182219216595,
+          "span": 0.322453428053604
+        },
+        {
+          "pct": 30.0,
+          "coverage": 0.3,
+          "actual": 1.044000010907442,
+          "graph": 0.7582234214613348,
+          "span": 0.682142041271494
+        },
+        {
+          "pct": 40.0,
+          "coverage": 0.4,
+          "actual": 1.0979754325339708,
+          "graph": 0.6175757170733265,
+          "span": 0.4297700344577437
+        },
+        {
+          "pct": 50.0,
+          "coverage": 0.5,
+          "actual": 1.441503532769406,
+          "graph": 0.8090460138499567,
+          "span": 0.6195033727629307
+        },
+        {
+          "pct": 70.0,
+          "coverage": 0.7,
+          "actual": 1.333084165647569,
+          "graph": 1.0162648338890024,
+          "span": 0.7004040797911504
+        },
+        {
+          "pct": 90.0,
+          "coverage": 0.9,
+          "actual": 0.5079573690332073,
+          "graph": 0.7039641977991784,
+          "span": 0.5042821123295793
+        }
+      ],
+      "curve_mae_pp_graph": 0.40230053636664853,
+      "curve_mae_pp_span": 0.521953066826629
+    },
+    "volume_per_fu": {
+      "cases": 189,
+      "panels": 7,
+      "curve": [
+        {
+          "pct": 5.0,
+          "coverage": 0.05,
+          "actual": 24.554004032374,
+          "graph": 16.402963128928004,
+          "span": 1.2097914227422235
+        },
+        {
+          "pct": 10.0,
+          "coverage": 0.1,
+          "actual": 16.70859262912788,
+          "graph": 15.82492448605447,
+          "span": 1.89332269138176
+        },
+        {
+          "pct": 15.0,
+          "coverage": 0.15,
+          "actual": 12.067465588401593,
+          "graph": 11.592671287938373,
+          "span": 4.334008279848067
+        },
+        {
+          "pct": 20.0,
+          "coverage": 0.2,
+          "actual": 5.922461057602324,
+          "graph": 25.0906298106223,
+          "span": 6.189188589587524
+        },
+        {
+          "pct": 30.0,
+          "coverage": 0.3,
+          "actual": 1.31933082170147,
+          "graph": 1.694698447996601,
+          "span": 1.658409387764315
+        },
+        {
+          "pct": 40.0,
+          "coverage": 0.4,
+          "actual": 1.2185411812060565,
+          "graph": 0.3609670127051823,
+          "span": -0.7314208058868399
+        },
+        {
+          "pct": 50.0,
+          "coverage": 0.5,
+          "actual": 0.2740807994217831,
+          "graph": -0.1435103477940513,
+          "span": -0.70246304528081
+        },
+        {
+          "pct": 70.0,
+          "coverage": 0.7,
+          "actual": 0.0003797004904049,
+          "graph": -0.2481877928343978,
+          "span": -0.4764681345557742
+        },
+        {
+          "pct": 90.0,
+          "coverage": 0.9,
+          "actual": 0.6548617870340112,
+          "graph": -0.069248870862526,
+          "span": -0.2592324902108256
+        }
+      ],
+      "curve_mae_pp_graph": 3.4778759103595314,
+      "curve_mae_pp_span": 5.646243766451775
+    },
+    "fitness": {
+      "cases": 1759,
+      "panels": 120,
+      "curve": [
+        {
+          "pct": 3.0,
+          "coverage": 0.03,
+          "actual": 1.5997509831971124,
+          "graph": 2.0306953169831554,
+          "span": -1.233887278706347
+        },
+        {
+          "pct": 5.0,
+          "coverage": 0.05,
+          "actual": 5.5388872664469515,
+          "graph": 1.0903227652733132,
+          "span": -2.8172906122440917
+        },
+        {
+          "pct": 8.0,
+          "coverage": 0.08,
+          "actual": 12.235920457915268,
+          "graph": -4.200499098854182,
+          "span": -3.9494042181123463
+        },
+        {
+          "pct": 12.0,
+          "coverage": 0.12,
+          "actual": 5.633351181499719,
+          "graph": -7.185876994072268,
+          "span": -0.3589145437480348
+        },
+        {
+          "pct": 20.0,
+          "coverage": 0.2,
+          "actual": 0.5507000488820379,
+          "graph": -6.713599472626052,
+          "span": -18.55719225741444
+        },
+        {
+          "pct": 35.0,
+          "coverage": 0.35,
+          "actual": -2.633338196779988,
+          "graph": -3.560707950054348,
+          "span": -4.788125227683049
+        },
+        {
+          "pct": 50.0,
+          "coverage": 0.5,
+          "actual": -1.2864291262937477,
+          "graph": -2.1527282990779106,
+          "span": -1.624680086569591
+        },
+        {
+          "pct": 75.0,
+          "coverage": 0.75,
+          "actual": -0.6061545949251651,
+          "graph": -0.925949157973116,
+          "span": -0.8987572797732046
+        }
+      ],
+      "curve_mae_pp_graph": 5.43911494723946,
+      "curve_mae_pp_span": 6.907617440524161
+    }
+  },
+  "materials_source_reproduction_max_difference_pp": 0.07254587184002403,
+  "protein_source_reproduction_max_difference_pp": 3.515786943797394e-05,
+  "full52_five_percent_estimates": [
+    {
+      "property": "heat_of_formation",
+      "site": "A",
+      "sigma2": 0.1108283395440462,
+      "tau2": 0.0783775328108017,
+      "rho": 0.5273345668536547,
+      "bias2": 0.0381059759355635,
+      "nstar_naive": 2.87067252221109,
+      "nstar_design": 2.5663662304538604,
+      "true_rho_evaluation_only": 0.5040250888997764
+    },
+    {
+      "property": "heat_of_formation",
+      "site": "B",
+      "sigma2": 0.1108283395440462,
+      "tau2": 0.2928515699285313,
+      "rho": 0.77804646168745,
+      "bias2": 0.0649994421460227,
+      "nstar_naive": 1.7342690237103355,
+      "nstar_design": 1.5276830045216354,
+      "true_rho_evaluation_only": 0.7836967947329934
+    },
+    {
+      "property": "magnetic_moment",
+      "site": "A",
+      "sigma2": 1.339313831411094,
+      "tau2": 0.5895424656617971,
+      "rho": 0.4205391036836845,
+      "bias2": 0.3536197686753173,
+      "nstar_naive": 4.215411326672474,
+      "nstar_design": 3.6848254207686657,
+      "true_rho_evaluation_only": 0.4200820760432746
+    },
+    {
+      "property": "magnetic_moment",
+      "site": "B",
+      "sigma2": 1.339313831411094,
+      "tau2": 0.1556633178150928,
+      "rho": 0.2397962183035081,
+      "bias2": 0.1062478338515693,
+      "nstar_naive": 11.264786855369955,
+      "nstar_design": 10.17303887669418,
+      "true_rho_evaluation_only": 0.2727718141087201
+    },
+    {
+      "property": "volume_per_fu",
+      "site": "A",
+      "sigma2": 26.507720413764694,
+      "tau2": 16.418496008425763,
+      "rho": 0.9206380678660684,
+      "bias2": 1.4914826703238402,
+      "nstar_naive": 17.37567857818452,
+      "nstar_design": 15.322357006782823,
+      "true_rho_evaluation_only": 0.9104122434083332
+    },
+    {
+      "property": "volume_per_fu",
+      "site": "B",
+      "sigma2": 26.507720413764694,
+      "tau2": 187.2891854982184,
+      "rho": 0.913695969905331,
+      "bias2": 16.038178208388977,
+      "nstar_naive": 1.5725973360248715,
+      "nstar_design": 1.4273077970312391,
+      "true_rho_evaluation_only": 0.9075935865357878
+    }
+  ],
+  "effect_experiment": {
+    "site_cases": 2310,
+    "sign_accuracy": 0.7792207792207793,
+    "always_free_accuracy": 0.7787878787878788,
+    "nonpositive_bias_estimate_fraction": 0.15541125541125542
+  },
+  "pilot_iid_parameters": [
+    {
+      "site": "A",
+      "sigma2": 28.441090165817315,
+      "bias2": 0.5472119963996975,
+      "tau2": 16.086725475049562,
+      "rho": 0.9706499254127532
+    },
+    {
+      "site": "B",
+      "sigma2": 28.441090165817315,
+      "bias2": 17.86572528424622,
+      "tau2": 192.10238405224072,
+      "rho": 0.9072489909381395
+    }
+  ],
+  "pilot_iid_forecast": {
+    "pilot_fraction": 0.02,
+    "seeds": 18,
+    "forecast_site_cases": 432,
+    "crossings": {
+      "A": {
+        "forecast_coverage": 0.11641513293560374,
+        "observed_coverage": 0.041229245207666305,
+        "curve": [
+          {
+            "coverage": 0.02,
+            "free_forecast_mse": 5.247962566338046,
+            "free_actual_mse": 5.507655573681779,
+            "basis_forecast_mse": 1.925296688009876,
+            "basis_actual_mse": 2.6669112497594947,
+            "shrink_forecast_mse": 1.8874633049268597,
+            "shrink_actual_mse": 2.4268826217577177,
+            "pct": 2.0
+          },
+          {
+            "coverage": 0.025,
+            "free_forecast_mse": 3.908756524588778,
+            "free_actual_mse": 3.649972393308981,
+            "basis_forecast_mse": 1.4898942629091598,
+            "basis_actual_mse": 2.3277261019620634,
+            "shrink_forecast_mse": 1.3972315529869173,
+            "shrink_actual_mse": 1.9882183881672058,
+            "pct": 2.5
+          },
+          {
+            "coverage": 0.03,
+            "free_forecast_mse": 3.096436084026423,
+            "free_actual_mse": 2.8831016851595757,
+            "basis_forecast_mse": 1.3018260042382421,
+            "basis_actual_mse": 2.176606990546955,
+            "shrink_forecast_mse": 1.1892033812656555,
+            "shrink_actual_mse": 1.847008181072459,
+            "pct": 3.0
+          },
+          {
+            "coverage": 0.035,
+            "free_forecast_mse": 2.563833599447606,
+            "free_actual_mse": 2.367918248294874,
+            "basis_forecast_mse": 1.1625594633946439,
+            "basis_actual_mse": 2.1398188439669257,
+            "shrink_forecast_mse": 1.0336512733257806,
+            "shrink_actual_mse": 1.7580304385063874,
+            "pct": 3.5000000000000004
+          },
+          {
+            "coverage": 0.04,
+            "free_forecast_mse": 2.1907359167466844,
+            "free_actual_mse": 2.049259340795942,
+            "basis_forecast_mse": 1.0707694821251512,
+            "basis_actual_mse": 1.980571315541874,
+            "shrink_forecast_mse": 0.9248329724635802,
+            "shrink_actual_mse": 1.529424922657472,
+            "pct": 4.0
+          },
+          {
+            "coverage": 0.045,
+            "free_forecast_mse": 1.91355357841872,
+            "free_actual_mse": 1.6729747245989137,
+            "basis_forecast_mse": 1.0048376867125586,
+            "basis_actual_mse": 1.883677763168762,
+            "shrink_forecast_mse": 0.8442781221532717,
+            "shrink_actual_mse": 1.4679781460557582,
+            "pct": 4.5
+          },
+          {
+            "coverage": 0.05,
+            "free_forecast_mse": 1.7096734015028745,
+            "free_actual_mse": 1.5307670684733183,
+            "basis_forecast_mse": 0.9542263569620075,
+            "basis_actual_mse": 1.903514216674052,
+            "shrink_forecast_mse": 0.780010327476605,
+            "shrink_actual_mse": 1.318697981829407,
+            "pct": 5.0
+          },
+          {
+            "coverage": 0.06,
+            "free_forecast_mse": 1.4018147702001897,
+            "free_actual_mse": 1.208268152104059,
+            "basis_forecast_mse": 0.8773751817034523,
+            "basis_actual_mse": 1.8298058705548612,
+            "shrink_forecast_mse": 0.6788647407032564,
+            "shrink_actual_mse": 1.3172376529612575,
+            "pct": 6.0
+          },
+          {
+            "coverage": 0.075,
+            "free_forecast_mse": 1.100157585457138,
+            "free_actual_mse": 0.9588941618577507,
+            "basis_forecast_mse": 0.8039327058831429,
+            "basis_actual_mse": 1.7457809006895146,
+            "shrink_forecast_mse": 0.5767442041136327,
+            "shrink_actual_mse": 1.2145975075894602,
+            "pct": 7.5
+          },
+          {
+            "coverage": 0.1,
+            "free_forecast_mse": 0.8058669274180112,
+            "free_actual_mse": 0.6531042964007363,
+            "basis_forecast_mse": 0.7361580880409879,
+            "basis_actual_mse": 1.6863317586486861,
+            "shrink_forecast_mse": 0.4704410225236033,
+            "shrink_actual_mse": 0.945556403781638,
+            "pct": 10.0
+          },
+          {
+            "coverage": 0.15,
+            "free_forecast_mse": 0.5278311627915444,
+            "free_actual_mse": 0.4472102627952765,
+            "basis_forecast_mse": 0.6704533464116841,
+            "basis_actual_mse": 1.6356196342409723,
+            "shrink_forecast_mse": 0.3355521555245324,
+            "shrink_actual_mse": 0.7040437828743623,
+            "pct": 15.0
+          },
+          {
+            "coverage": 0.2,
+            "free_forecast_mse": 0.39154881988935913,
+            "free_actual_mse": 0.3371494828229248,
+            "basis_forecast_mse": 0.6388719282164855,
+            "basis_actual_mse": 1.6053500411311035,
+            "shrink_forecast_mse": 0.260386526413364,
+            "shrink_actual_mse": 0.5283261005468008,
+            "pct": 20.0
+          }
+        ]
+      },
+      "B": {
+        "forecast_coverage": null,
+        "observed_coverage": null,
+        "curve": [
+          {
+            "coverage": 0.02,
+            "free_forecast_mse": 5.481556047711022,
+            "free_actual_mse": 6.031704542923485,
+            "basis_forecast_mse": 19.044740696099524,
+            "basis_actual_mse": 18.293601465127523,
+            "shrink_forecast_mse": 4.654585233070664,
+            "shrink_actual_mse": 4.758465130423857,
+            "pct": 2.0
+          },
+          {
+            "coverage": 0.025,
+            "free_forecast_mse": 3.99878256217263,
+            "free_actual_mse": 3.753308481530609,
+            "basis_forecast_mse": 18.726005442387713,
+            "basis_actual_mse": 17.7959579308139,
+            "shrink_forecast_mse": 3.5079495814233086,
+            "shrink_actual_mse": 3.549666871179734,
+            "pct": 2.5
+          },
+          {
+            "coverage": 0.03,
+            "free_forecast_mse": 3.2185450715298387,
+            "free_actual_mse": 3.1665687136611984,
+            "basis_forecast_mse": 18.55765457511955,
+            "basis_actual_mse": 17.7648161374846,
+            "shrink_forecast_mse": 2.8738112812455356,
+            "shrink_actual_mse": 2.9565661900239624,
+            "pct": 3.0
+          },
+          {
+            "coverage": 0.035,
+            "free_forecast_mse": 2.654615132786212,
+            "free_actual_mse": 2.993855282660146,
+            "basis_forecast_mse": 18.44372630280371,
+            "basis_actual_mse": 17.694573039012905,
+            "shrink_forecast_mse": 2.4154523846954374,
+            "shrink_actual_mse": 2.581123304439253,
+            "pct": 3.5000000000000004
+          },
+          {
+            "coverage": 0.04,
+            "free_forecast_mse": 2.277890923213241,
+            "free_actual_mse": 2.266500183975333,
+            "basis_forecast_mse": 18.359521670440493,
+            "basis_actual_mse": 17.691268924571155,
+            "shrink_forecast_mse": 2.0990470162136288,
+            "shrink_actual_mse": 2.2501289446378108,
+            "pct": 4.0
+          },
+          {
+            "coverage": 0.045,
+            "free_forecast_mse": 1.9766503846277308,
+            "free_actual_mse": 1.8614067352848314,
+            "basis_forecast_mse": 18.297537052301436,
+            "basis_actual_mse": 17.691347014285668,
+            "shrink_forecast_mse": 1.840448519254783,
+            "shrink_actual_mse": 1.767897530214197,
+            "pct": 4.5
+          },
+          {
+            "coverage": 0.05,
+            "free_forecast_mse": 1.7458418948039929,
+            "free_actual_mse": 1.8219333217982308,
+            "basis_forecast_mse": 18.249894919231835,
+            "basis_actual_mse": 17.603825797954787,
+            "shrink_forecast_mse": 1.6386903870468594,
+            "shrink_actual_mse": 1.783525868922301,
+            "pct": 5.0
+          },
+          {
+            "coverage": 0.06,
+            "free_forecast_mse": 1.4213364355156202,
+            "free_actual_mse": 1.4257916407892122,
+            "basis_forecast_mse": 18.178070686706018,
+            "basis_actual_mse": 17.499448059750044,
+            "shrink_forecast_mse": 1.348954471686609,
+            "shrink_actual_mse": 1.3118008040063946,
+            "pct": 6.0
+          },
+          {
+            "coverage": 0.075,
+            "free_forecast_mse": 1.105251779975088,
+            "free_actual_mse": 1.049246183597485,
+            "basis_forecast_mse": 18.11195786280632,
+            "basis_actual_mse": 17.454085091025973,
+            "shrink_forecast_mse": 1.0659255614804723,
+            "shrink_actual_mse": 1.0224979651046318,
+            "pct": 7.5
+          },
+          {
+            "coverage": 0.1,
+            "free_forecast_mse": 0.8091423008064647,
+            "free_actual_mse": 0.7199021824767196,
+            "basis_forecast_mse": 18.047062143868285,
+            "basis_actual_mse": 17.390043006516965,
+            "shrink_forecast_mse": 0.787276160024948,
+            "shrink_actual_mse": 0.7368592641800247,
+            "pct": 10.0
+          },
+          {
+            "coverage": 0.15,
+            "free_forecast_mse": 0.5287700216536678,
+            "free_actual_mse": 0.4501323298247657,
+            "basis_forecast_mse": 17.98321500416835,
+            "basis_actual_mse": 17.384224618771263,
+            "shrink_forecast_mse": 0.5187809014965117,
+            "shrink_actual_mse": 0.4584357896337062,
+            "pct": 15.0
+          },
+          {
+            "coverage": 0.2,
+            "free_forecast_mse": 0.39261562393069993,
+            "free_actual_mse": 0.2661391156494676,
+            "basis_forecast_mse": 17.953127612102456,
+            "basis_actual_mse": 17.35531790412842,
+            "shrink_forecast_mse": 0.38749937983376725,
+            "shrink_actual_mse": 0.28107710711833034,
+            "pct": 20.0
+          }
+        ]
+      }
+    },
+    "excluded_seeds": [
+      16,
+      18
+    ],
+    "exclusion_reason": "Additive design at the 2% pilot is rank deficient; free OLS effect estimator undefined.",
+    "A_sign_accuracy": 0.494949494949495,
+    "B_sign_accuracy": 1.0
+  },
+  "pilot_hc2_parameters": [
+    {
+      "site": "A",
+      "sigma2": 28.441090165817315,
+      "bias2": 1.0002604542877598,
+      "tau2": 16.762622029552617,
+      "rho": 0.9446890978974968
+    },
+    {
+      "site": "B",
+      "sigma2": 28.441090165817315,
+      "bias2": 17.572854241384707,
+      "tau2": 191.96176407498348,
+      "rho": 0.9076634784445627
+    }
+  ],
+  "pilot_hc2_forecast": {
+    "pilot_fraction": 0.02,
+    "seeds": 18,
+    "forecast_site_cases": 432,
+    "crossings": {
+      "A": {
+        "forecast_coverage": 0.05908903291732493,
+        "observed_coverage": 0.041229245207666305,
+        "curve": [
+          {
+            "coverage": 0.02,
+            "free_forecast_mse": 4.983837036436611,
+            "free_actual_mse": 5.507655573681779,
+            "basis_forecast_mse": 2.146482830267839,
+            "basis_actual_mse": 2.6669112497594947,
+            "shrink_forecast_mse": 1.8579956329319915,
+            "shrink_actual_mse": 2.4431640879051137,
+            "pct": 2.0
+          },
+          {
+            "coverage": 0.025,
+            "free_forecast_mse": 3.7634723549105,
+            "free_actual_mse": 3.649972393308981,
+            "basis_forecast_mse": 1.937895167817714,
+            "basis_actual_mse": 2.3277261019620634,
+            "shrink_forecast_mse": 1.538163936730433,
+            "shrink_actual_mse": 1.9503173405955736,
+            "pct": 2.5
+          },
+          {
+            "coverage": 0.03,
+            "free_forecast_mse": 2.972637762291863,
+            "free_actual_mse": 2.8831016851595757,
+            "basis_forecast_mse": 1.7633008232204883,
+            "basis_actual_mse": 2.176606990546955,
+            "shrink_forecast_mse": 1.308961924345911,
+            "shrink_actual_mse": 1.796409450142282,
+            "pct": 3.0
+          },
+          {
+            "coverage": 0.035,
+            "free_forecast_mse": 2.4470622575719396,
+            "free_actual_mse": 2.367918248294874,
+            "basis_forecast_mse": 1.620885768602749,
+            "basis_actual_mse": 2.1398188439669257,
+            "shrink_forecast_mse": 1.165482299728851,
+            "shrink_actual_mse": 1.6879081251821892,
+            "pct": 3.5000000000000004
+          },
+          {
+            "coverage": 0.04,
+            "free_forecast_mse": 2.0837376690210463,
+            "free_actual_mse": 2.049259340795942,
+            "basis_forecast_mse": 1.5263924113885836,
+            "basis_actual_mse": 1.980571315541874,
+            "shrink_forecast_mse": 1.0547633057126748,
+            "shrink_actual_mse": 1.4774478815863274,
+            "pct": 4.0
+          },
+          {
+            "coverage": 0.045,
+            "free_forecast_mse": 1.8030263089454244,
+            "free_actual_mse": 1.6729747245989137,
+            "basis_forecast_mse": 1.4605969458729198,
+            "basis_actual_mse": 1.883677763168762,
+            "shrink_forecast_mse": 0.9636186194296682,
+            "shrink_actual_mse": 1.3604694626467488,
+            "pct": 4.5
+          },
+          {
+            "coverage": 0.05,
+            "free_forecast_mse": 1.601200257835517,
+            "free_actual_mse": 1.5307670684733183,
+            "basis_forecast_mse": 1.4118633803980947,
+            "basis_actual_mse": 1.903514216674052,
+            "shrink_forecast_mse": 0.889965877191468,
+            "shrink_actual_mse": 1.1798219491376518,
+            "pct": 5.0
+          },
+          {
+            "coverage": 0.06,
+            "free_forecast_mse": 1.3168899155006235,
+            "free_actual_mse": 1.208268152104059,
+            "basis_forecast_mse": 1.3358665948075281,
+            "basis_actual_mse": 1.8298058705548612,
+            "shrink_forecast_mse": 0.7610496615604816,
+            "shrink_actual_mse": 1.139612374641104,
+            "pct": 6.0
+          },
+          {
+            "coverage": 0.075,
+            "free_forecast_mse": 1.0299140095335866,
+            "free_actual_mse": 0.9588941618577507,
+            "basis_forecast_mse": 1.2611864137946087,
+            "basis_actual_mse": 1.7457809006895146,
+            "shrink_forecast_mse": 0.6281839769134037,
+            "shrink_actual_mse": 0.9917680219843711,
+            "pct": 7.5
+          },
+          {
+            "coverage": 0.1,
+            "free_forecast_mse": 0.7563153492958254,
+            "free_actual_mse": 0.6531042964007363,
+            "basis_forecast_mse": 1.191725464661439,
+            "basis_actual_mse": 1.6863317586486861,
+            "shrink_forecast_mse": 0.48814192684941227,
+            "shrink_actual_mse": 0.7322842505398368,
+            "pct": 10.0
+          },
+          {
+            "coverage": 0.15,
+            "free_forecast_mse": 0.4935234665633008,
+            "free_actual_mse": 0.4472102627952765,
+            "basis_forecast_mse": 1.1253289965123794,
+            "basis_actual_mse": 1.6356196342409723,
+            "shrink_forecast_mse": 0.3362490831129238,
+            "shrink_actual_mse": 0.5030994302330474,
+            "pct": 15.0
+          },
+          {
+            "coverage": 0.2,
+            "free_forecast_mse": 0.36716000951327504,
+            "free_actual_mse": 0.3371494828229248,
+            "basis_forecast_mse": 1.0935172722985627,
+            "basis_actual_mse": 1.6053500411311035,
+            "shrink_forecast_mse": 0.2551983389781204,
+            "shrink_actual_mse": 0.34464601539790723,
+            "pct": 20.0
+          }
+        ]
+      },
+      "B": {
+        "forecast_coverage": null,
+        "observed_coverage": null,
+        "curve": [
+          {
+            "coverage": 0.02,
+            "free_forecast_mse": 5.990402725896093,
+            "free_actual_mse": 6.031704542923485,
+            "basis_forecast_mse": 18.61311193516182,
+            "basis_actual_mse": 18.293601465127523,
+            "shrink_forecast_mse": 4.864682090642125,
+            "shrink_actual_mse": 4.7740196766424745,
+            "pct": 2.0
+          },
+          {
+            "coverage": 0.025,
+            "free_forecast_mse": 4.435370664681155,
+            "free_actual_mse": 3.753308481530609,
+            "basis_forecast_mse": 18.305312868371423,
+            "basis_actual_mse": 17.7959579308139,
+            "shrink_forecast_mse": 3.795943473158049,
+            "shrink_actual_mse": 3.573231955020767,
+            "pct": 2.5
+          },
+          {
+            "coverage": 0.03,
+            "free_forecast_mse": 3.491044006524551,
+            "free_actual_mse": 3.1665687136611984,
+            "basis_forecast_mse": 18.169678208974627,
+            "basis_actual_mse": 17.7648161374846,
+            "shrink_forecast_mse": 3.1146936716787694,
+            "shrink_actual_mse": 2.9674083439219205,
+            "pct": 3.0
+          },
+          {
+            "coverage": 0.035,
+            "free_forecast_mse": 2.8845195188412154,
+            "free_actual_mse": 2.993855282660146,
+            "basis_forecast_mse": 18.08068799200014,
+            "basis_actual_mse": 17.694573039012905,
+            "shrink_forecast_mse": 2.5722539567258993,
+            "shrink_actual_mse": 2.574887137613238,
+            "pct": 3.5000000000000004
+          },
+          {
+            "coverage": 0.04,
+            "free_forecast_mse": 2.464516579607407,
+            "free_actual_mse": 2.266500183975333,
+            "basis_forecast_mse": 18.01924124730581,
+            "basis_actual_mse": 17.691268924571155,
+            "shrink_forecast_mse": 2.2278359220609922,
+            "shrink_actual_mse": 2.200352782082917,
+            "pct": 4.0
+          },
+          {
+            "coverage": 0.045,
+            "free_forecast_mse": 2.1505727187028025,
+            "free_actual_mse": 1.8614067352848314,
+            "basis_forecast_mse": 17.971022964548673,
+            "basis_actual_mse": 17.691347014285668,
+            "shrink_forecast_mse": 1.9681269291738541,
+            "shrink_actual_mse": 1.7193243739486253,
+            "pct": 4.5
+          },
+          {
+            "coverage": 0.05,
+            "free_forecast_mse": 1.900588923165023,
+            "free_actual_mse": 1.8219333217982308,
+            "basis_forecast_mse": 17.934786004778914,
+            "basis_actual_mse": 17.603825797954787,
+            "shrink_forecast_mse": 1.7563091861546534,
+            "shrink_actual_mse": 1.7806336930383397,
+            "pct": 5.0
+          },
+          {
+            "coverage": 0.06,
+            "free_forecast_mse": 1.5576454687902723,
+            "free_actual_mse": 1.4257916407892122,
+            "basis_forecast_mse": 17.87899870050861,
+            "basis_actual_mse": 17.499448059750044,
+            "shrink_forecast_mse": 1.45844416068825,
+            "shrink_actual_mse": 1.3192751041268103,
+            "pct": 6.0
+          },
+          {
+            "coverage": 0.075,
+            "free_forecast_mse": 1.2286754144114704,
+            "free_actual_mse": 1.049246183597485,
+            "basis_forecast_mse": 17.82289576516303,
+            "basis_actual_mse": 17.454085091025973,
+            "shrink_forecast_mse": 1.165993522997635,
+            "shrink_actual_mse": 1.0233415629468374,
+            "pct": 7.5
+          },
+          {
+            "coverage": 0.1,
+            "free_forecast_mse": 0.8992377729201461,
+            "free_actual_mse": 0.7199021824767196,
+            "basis_forecast_mse": 17.755626128946375,
+            "basis_actual_mse": 17.390043006516965,
+            "shrink_forecast_mse": 0.8650831408180254,
+            "shrink_actual_mse": 0.7233925179463147,
+            "pct": 10.0
+          },
+          {
+            "coverage": 0.15,
+            "free_forecast_mse": 0.5864273031694043,
+            "free_actual_mse": 0.4501323298247657,
+            "basis_forecast_mse": 17.692306394275793,
+            "basis_actual_mse": 17.384224618771263,
+            "shrink_forecast_mse": 0.5716407356961948,
+            "shrink_actual_mse": 0.46122703850218244,
+            "pct": 15.0
+          },
+          {
+            "coverage": 0.2,
+            "free_forecast_mse": 0.4354230177217556,
+            "free_actual_mse": 0.2661391156494676,
+            "basis_forecast_mse": 17.660748611475405,
+            "basis_actual_mse": 17.35531790412842,
+            "shrink_forecast_mse": 0.4272235565297271,
+            "shrink_actual_mse": 0.272459171950387,
+            "pct": 20.0
+          }
+        ]
+      }
+    },
+    "excluded_seeds": [
+      16,
+      18
+    ],
+    "exclusion_reason": "Additive design at the 2% pilot is rank deficient; free OLS effect estimator undefined.",
+    "A_sign_accuracy": 0.5555555555555556,
+    "B_sign_accuracy": 1.0
+  }
+}

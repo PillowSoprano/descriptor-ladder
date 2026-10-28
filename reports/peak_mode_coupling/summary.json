@@ -1,0 +1,18 @@
+{
+  "seconds": 20.50732707977295,
+  "designs": 910,
+  "max_mae_difference": 0.002907967467288053,
+  "max_relative_mae_difference": 0.00045914328187668385,
+  "max_reconstruction_error": 3.0269120543380268e-12,
+  "graph_rank_matches": true,
+  "weakest_fraction": 0.1,
+  "properties": [
+    "heat_of_formation",
+    "volume_per_fu"
+  ],
+  "sizes": {
+    "A": 14,
+    "B": 14,
+    "X": 7
+  }
+}

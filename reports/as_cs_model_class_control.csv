@@ -1,0 +1,41 @@
+property,level,model,n_edges,mae,sign_accuracy
+heat_of_formation,As,node linear,2205,0.39305604390055077,0.7288990825688073
+heat_of_formation,As,node random forest,2205,0.24008870748299302,0.8555045871559633
+heat_of_formation,As,node gradient boosting,2205,0.24663321319695228,0.8509174311926605
+heat_of_formation,As,direct linear response,2205,0.7775865370790251,0.48394495412844035
+heat_of_formation,As,free plus metric,2205,0.3452592295903858,0.7793577981651376
+heat_of_formation,Cs,node linear,2205,0.5359593919696328,0.8584433318161129
+heat_of_formation,Cs,node random forest,2205,0.541800340136055,0.8575329995448339
+heat_of_formation,Cs,node gradient boosting,2205,0.509237494193219,0.8739189804278562
+heat_of_formation,Cs,direct linear response,2205,0.6853552013226981,0.866636322257624
+heat_of_formation,Cs,free plus metric,2205,0.49988839020698883,0.868456986800182
+volume_per_fu,As,node linear,2205,7.7185725334057524,0.8108843537414966
+volume_per_fu,As,node random forest,2205,7.806417769203768,0.7732426303854876
+volume_per_fu,As,node gradient boosting,2205,7.0589126946935306,0.7963718820861678
+volume_per_fu,As,direct linear response,2205,12.207960817940702,0.7700680272108843
+volume_per_fu,As,free plus metric,2205,7.681441103555962,0.8031746031746032
+volume_per_fu,Cs,node linear,2205,13.603538408147324,0.8612244897959184
+volume_per_fu,Cs,node random forest,2205,9.639164034112424,0.8444444444444444
+volume_per_fu,Cs,node gradient boosting,2205,9.482421902329628,0.853514739229025
+volume_per_fu,Cs,direct linear response,2205,25.611540951200734,0.8521541950113378
+volume_per_fu,Cs,free plus metric,2205,12.869261067468994,0.8707482993197279
+magnetic_moment,As,node linear,2205,1.4046838640522379,0.5240690281562216
+magnetic_moment,As,node random forest,2205,0.792434258204145,0.6634877384196185
+magnetic_moment,As,node gradient boosting,2205,0.8339344224983735,0.6653042688465032
+magnetic_moment,As,direct linear response,2205,1.7761442675560595,0.5127157129881925
+magnetic_moment,As,free plus metric,2205,1.348165553650517,0.5435967302452316
+magnetic_moment,Cs,node linear,2205,1.2821487158908245,0.5608337372758119
+magnetic_moment,Cs,node random forest,2205,0.8673258350991969,0.686863790596219
+magnetic_moment,Cs,node gradient boosting,2205,0.9132444208999684,0.656810470189045
+magnetic_moment,Cs,direct linear response,2205,1.925838845542998,0.5894328647600582
+magnetic_moment,Cs,free plus metric,2205,1.2417533959885176,0.5802229762481823
+magnetic_moment_signed,As,node linear,2205,1.5594660936227678,0.5154405086285195
+magnetic_moment_signed,As,node random forest,2205,1.0568474275038093,0.6530426884650318
+magnetic_moment_signed,As,node gradient boosting,2205,1.1135026053958608,0.6235240690281563
+magnetic_moment_signed,As,direct linear response,2205,1.8790210992158505,0.5190735694822888
+magnetic_moment_signed,As,free plus metric,2205,1.501867066017683,0.5395095367847411
+magnetic_moment_signed,Cs,node linear,2205,1.4560158954117477,0.5879786718371304
+magnetic_moment_signed,Cs,node random forest,2205,0.9435668704943008,0.6621425109064469
+magnetic_moment_signed,Cs,node gradient boosting,2205,1.0129365987674241,0.6446921958313137
+magnetic_moment_signed,Cs,direct linear response,2205,2.019806862844354,0.5656810470189045
+magnetic_moment_signed,Cs,free plus metric,2205,1.3397475327513384,0.6112457586039748

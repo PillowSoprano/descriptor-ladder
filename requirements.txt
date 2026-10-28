@@ -1,0 +1,10 @@
+# Python 3.11. Exact versions used to produce the reported results.
+numpy==2.4.2
+pandas==2.3.3
+pyarrow==23.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+biopython==1.87
+pymatgen==2026.3.23
+spglib==2.7.0

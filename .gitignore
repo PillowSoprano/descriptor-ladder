@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# fetched by scripts/download_data.py; the Emery-Wolverton table ships with the release
+data/raw/*
+!data/raw/emery_wolverton/

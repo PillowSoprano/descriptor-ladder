@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+type: software
+title: "Code and data for: Which compositions have been computed decides how chemical descriptors should enter a model"
+authors:
+  - family-names: Yu
+    given-names: Xiyao
+    affiliation: "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore"
+    orcid: "https://orcid.org/0009-0006-2673-5269"
+license: MIT
+repository-code: "https://github.com/PillowSoprano/descriptor-ladder"

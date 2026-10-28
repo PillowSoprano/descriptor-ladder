@@ -1,0 +1,18 @@
+{
+  "paths": 128,
+  "grids": 120,
+  "sizes": [
+    7,
+    10,
+    13,
+    16,
+    19
+  ],
+  "etas": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "seconds": 92.89605808258057,
+  "pilot": "existing seed0 12% full-grid hyperparameters transported by covariance restriction"
+}

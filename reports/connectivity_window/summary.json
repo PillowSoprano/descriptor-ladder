@@ -1,0 +1,99 @@
+{
+  "size_comparison": [
+    {
+      "m": 7,
+      "observed_mse_closing": 0.40596399831853164,
+      "compact_mse_closing": 0.4643007726662198,
+      "connection50": 0.35690116025264024
+    },
+    {
+      "m": 10,
+      "observed_mse_closing": 0.34043765954621497,
+      "compact_mse_closing": 0.3489944441454757,
+      "connection50": 0.2889667954621211
+    },
+    {
+      "m": 13,
+      "observed_mse_closing": 0.31478726708818566,
+      "compact_mse_closing": 0.27453093104760345,
+      "connection50": 0.2452031140012756
+    },
+    {
+      "m": 16,
+      "observed_mse_closing": 0.2653760520036,
+      "compact_mse_closing": 0.22193716791728282,
+      "connection50": 0.21417304617577343
+    },
+    {
+      "m": 19,
+      "observed_mse_closing": 0.21282581634105197,
+      "compact_mse_closing": 0.19093691061082385,
+      "connection50": 0.19082437993421056
+    }
+  ],
+  "mean_absolute_boundary_error_pp": 3.449553696081527,
+  "connection50_error_pp": 4.866445949431266,
+  "phase": [
+    {
+      "m": 7,
+      "model": "compact",
+      "first_positive_eta": 0.3,
+      "first_beyond90_eta": 1.2
+    },
+    {
+      "m": 7,
+      "model": "observed",
+      "first_positive_eta": 0.775,
+      "first_beyond90_eta": 1.275
+    },
+    {
+      "m": 10,
+      "model": "compact",
+      "first_positive_eta": 0.3,
+      "first_beyond90_eta": 1.275
+    },
+    {
+      "m": 10,
+      "model": "observed",
+      "first_positive_eta": 0.625,
+      "first_beyond90_eta": 1.35
+    },
+    {
+      "m": 13,
+      "model": "compact",
+      "first_positive_eta": 0.3,
+      "first_beyond90_eta": 1.3
+    },
+    {
+      "m": 13,
+      "model": "observed",
+      "first_positive_eta": 0.55,
+      "first_beyond90_eta": 1.425
+    },
+    {
+      "m": 16,
+      "model": "compact",
+      "first_positive_eta": 0.3,
+      "first_beyond90_eta": 1.375
+    },
+    {
+      "m": 16,
+      "model": "observed",
+      "first_positive_eta": 0.5,
+      "first_beyond90_eta": 1.35
+    },
+    {
+      "m": 19,
+      "model": "compact",
+      "first_positive_eta": 0.3,
+      "first_beyond90_eta": 1.4
+    },
+    {
+      "m": 19,
+      "model": "observed",
+      "first_positive_eta": 0.35,
+      "first_beyond90_eta": 1.325
+    }
+  ],
+  "interpretation": "Compact formula evaluated with complete-grid signal parameters; transport to training-only estimates is reported separately."
+}
