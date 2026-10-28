@@ -1,0 +1,8 @@
+{
+  "source": "Materials Project, https://materialsproject.org",
+  "licence": "CC BY 4.0",
+  "database_version": "2026.09.28",
+  "selection": "robocrystallographer mineral type containing 'perovskite', anonymous formula ABC3",
+  "labelled_entries": 8595,
+  "abc3_entries": 2162
+}

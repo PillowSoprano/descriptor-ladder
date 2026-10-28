@@ -55,6 +55,7 @@ STEPS = {
     "S28": (["scripts/run_cmr_site_moments.py"], False),
     "S29": (["scripts/run_semiparametric_kernel_validation.py"], True),
     "S30": (["scripts/run_rf_gap_gain.py --n-jobs 4"], True),
+    "S31": (["scripts/run_mp_perovskite_reading.py"], False),
 }
 
 

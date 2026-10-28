@@ -2,6 +2,8 @@
 __pycache__/
 *.pyc
 .DS_Store
-# fetched by scripts/download_data.py; the Emery-Wolverton table ships with the release
+# fetched by scripts/download_data.py; the Emery-Wolverton table and the Materials Project
+# perovskite entries ship with the release
 data/raw/*
 !data/raw/emery_wolverton/
+!data/raw/mp_perovskites/

@@ -11,6 +11,8 @@ Supporting Information.
   section of the Supporting Information names the script behind each table.
 - `data/interim/`: the Castelli perovskite grid as used.
 - `data/raw/emery_wolverton/`: the Emery-Wolverton ABO3 table, unchanged, with its source and licence.
+- `data/raw/mp_perovskites/`: the ABX3 perovskite entries of the Materials Project, unchanged, with
+  their database version, source and licence.
 - `reports/`: every output file behind the tables, so results can be checked without rerunning.
   Intermediate curve files larger than 25 MB are left out; the commands of the table that uses
   them regenerate them first.
@@ -41,6 +43,7 @@ Runs that take longer than a few minutes are marked in `--list`.
 
 - Castelli et al., Energy Environ. Sci. 5, 9034 (2012); figshare doi:10.6084/m9.figshare.7215323 (MIT).
 - Emery and Wolverton, Sci. Data 4, 170153 (2017); figshare doi:10.6084/m9.figshare.5334142 (CC BY 4.0).
+- Horton et al., Nat. Mater. 24, 1522 (2025); Materials Project, database version 2026.09.28 (CC BY 4.0).
 - Olson et al., Curr. Biol. 24, 2643 (2014); GB1 double-mutant scan.
 - Elemental properties from pymatgen.
 
@@ -48,4 +51,6 @@ Runs that take longer than a few minutes are marked in `--list`.
 
 The code and the outputs in `reports/` are released under the MIT licence in `LICENSE`. The
 Castelli table in `data/interim/` is derived from records released under the MIT licence, and the
-Emery-Wolverton table keeps its CC BY 4.0 licence; a `SOURCE.md` beside each states its source.
+Emery-Wolverton table and the Materials Project entries keep their CC BY 4.0 licence, as does the
+composition list `reports/mp_perovskite_compositions.csv` derived from the latter; a `SOURCE.md`
+beside each data folder states its source.
